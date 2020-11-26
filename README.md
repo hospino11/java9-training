@@ -36,3 +36,11 @@ This new kind of methods can be used by another private methods or default metho
 - `null` keys and values not allowed (`java.lang.NullPointerException`).
 - Any modification on the collection not allowed (`java.lang.UnsupportedOperationException`).
 - Keys duplication not allowed (`java.lang.IllegalArgumentException`).
+
+## Resource
+### Advantages
+- Fewer lines of code
+- Readability
+- No need for `finally` anymore
+- Resource auto-close
+- Try with resource
