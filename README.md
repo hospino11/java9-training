@@ -17,3 +17,9 @@ The Java 9 version has a plus. This receives a predicate that allows to set a br
 ### ofNullable
 This improves the code avoiding null streams or null check of streams. In case of the stream is null, the output will be an empty stream.
 This is useful in `flatMap` operation.
+
+## Interface enhancements
+### `private static` method
+This new kind of methods can be used by another static methods or default methods only.
+### `private` method
+This new kind of methods can be used by another private methods or default methods only.
