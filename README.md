@@ -23,3 +23,16 @@ This is useful in `flatMap` operation.
 This new kind of methods can be used by another static methods or default methods only.
 ### `private` method
 This new kind of methods can be used by another private methods or default methods only.
+
+## Factory Methods Immutable Collections
+### List
+- `null` elements not allowed (`java.lang.NullPointerException`).
+- Any modification on the collection not allowed (`java.lang.UnsupportedOperationException`).
+### Set
+- `null` elements not allowed (`java.lang.NullPointerException`).
+- Any modification on the collection not allowed (`java.lang.UnsupportedOperationException`).
+- Elements duplication not allowed (`java.lang.IllegalArgumentException`).
+### Map
+- `null` keys and values not allowed (`java.lang.NullPointerException`).
+- Any modification on the collection not allowed (`java.lang.UnsupportedOperationException`).
+- Keys duplication not allowed (`java.lang.IllegalArgumentException`).
