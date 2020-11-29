@@ -44,3 +44,6 @@ This new kind of methods can be used by another private methods or default metho
 - No need for `finally` anymore
 - Resource auto-close
 - Try with resource
+
+## Diamond operator
+The new enhancement is about the diamond operator usage in anonymous classes. 
