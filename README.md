@@ -47,3 +47,21 @@ This new kind of methods can be used by another private methods or default metho
 
 ## Diamond operator
 The new enhancement is about the diamond operator usage in anonymous classes. 
+
+## Process API
+- Till Java 8 communication with process, operating system and machine is difficult.
+- We have to write code based on OS.
+- To overcome this area Java 9 came with lot of process API enhancements.
+### What we can do?
+- Getting the PIP - Process ID.
+- Create new process.
+- Destroying running process.
+- Getting parent and child process details.
+- Getting process details like owner and permissions.
+### Java 9 enhancements
+- Several new methods added - pip and info. Process class.
+- Process builder to create your own process. ProcessBuilder class.
+- We can access the current process, parent, child, etc. ProcessHandle class.
+- Provide details about process. ProcessHandleInfo class.
+### ProcessHandle
+ProcessHandle allows us to get the current running process information.  
