@@ -65,3 +65,15 @@ The new enhancement is about the diamond operator usage in anonymous classes.
 - Provide details about process. ProcessHandleInfo class.
 ### ProcessHandle
 ProcessHandle allows us to get the current running process information.  
+## HTTP 2 API
+### Before Java 9
+- We used HttpUrlConnection
+- Which is introduced in version 1 in 1997
+- Only supports Http 1
+- Only one request per session
+- Only supports synchronous mode
+- Not easy to use
+### In Java 9
+- Easy to use (lightweight component)
+- Supports http 1 and 2 (so it supports text and well binary data)
+- Supports asynchronous mode
